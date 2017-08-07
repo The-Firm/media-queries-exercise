@@ -4,17 +4,41 @@ body {
     background: lightblue;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
 
-.hidden-on-mobile {
-    image-resolution: 200px;
-}
+    .smaller-on-mobile {
+        width: 300px;
+        height: auto;
+    }
 
+    div {
+        width: 300px;
+    }
 
-}
+    .main {
+        border-style: solid;
+        border-width: 1px;
+        background-color: lightgreen;
+        padding-top: 10x;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
 
+    .nav-links {
+        border-style: solid;
+        border-width: 1px;
+        background-color: lightgray;
+        padding-top: 10x;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+	      text-align: center;
+	      width: 90%
+	      
+    }
 
-/* screen sizes between 960px and 1200px */
-@media screen and (min-width:960px) and (max-width:1200px) {
-    /*...*/
-}
+    /* screen sizes between 960px and 1200px */
+    @media screen and (min-width: 960px) and (max-width: 1200px) {
+        /*...*/
+    }
